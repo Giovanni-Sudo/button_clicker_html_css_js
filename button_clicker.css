@@ -1,0 +1,177 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35, 34, 34);
+    height: 2000px;
+}
+/*header/dojonary logo/search bar/login and log out button*/
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(157, 148, 148);
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-left: 200px;
+    width: 710px;
+}
+
+.dojonary {
+    display: flex;
+    margin-right: 80px;
+    width: 150px;
+    font-size: 45px;
+}
+
+.search_bar {
+    width: 330px;
+    height: 30px;
+    margin-right: 50px;
+    font-size: 17px;
+    border: 2px solid black;
+}
+
+.login {
+    width: 75px;
+    height: 30px;
+    background-color: rgb(0, 47, 255);
+    color: antiquewhite;
+    font-size: 17px;
+    box-shadow: 5px 5px black;
+}
+
+/*positioning columns and columns1 boxes */
+.columns {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    /* background-color: aqua; */
+}
+
+/*positioning box1 that will include content*/
+.box1 {
+    display: flex;
+    flex-direction: row;
+    border: 4px solid black;
+    width: 500px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+/*box1-left holds the word ninja,noun,plural and likes button*/
+.box1-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*h1=ninja and h2=noun*/
+.box1-left h1, h2{
+    margin: 0px;
+}
+
+/*box1-right contains the definition of ninja*/
+.box1-right {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 280px;
+    font-size: 20px;
+}
+/*likes1 is for 13 likes button*/
+.likes1{
+    width: 85px;
+    height: 30px;
+    background-color: rgb(239, 232, 7);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    box-shadow: 5px 5px black;
+}
+/*box2 is below box1 and contains the word ninja,noun,plural and likes button*/
+.box2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border: 4px solid black;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+/*box2-left contains the other definition of ninja*/
+.box2-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*h1=ninja and h2=noun*/
+.box2-left h1, h2{
+    margin: 0px;
+}
+
+/*likes2 is for 37 likes button*/
+.likes2 {
+    width: 85px;
+    height: 30px;
+    background-color: rgb(239, 232, 7);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    box-shadow: 5px 5px black;
+}
+
+/*box2-right contains the other definition of ninja*/
+.box2-right {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 280px;
+    font-size: 20px;
+}
+
+/*column2 is for the other box on the right side of page*/
+.column2 {
+    display: flex;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: white;
+    height: 130px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+}
+
+/*btn is for Add Definition button*/
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*add-def is for Add Definiton also*/
+.add-def {
+    width: 170px;
+    height: 30px;
+    background-color: rgba(53, 161, 13, 0.689);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    box-shadow: 5px 5px black;
+}
